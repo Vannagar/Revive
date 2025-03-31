@@ -86,6 +86,8 @@ class FirstLaunchActivity : ComponentActivity() {
                                                 CustomizeActivity::class.java
                                             )
                                         )
+                                    } else {
+                                        input = TextFieldValue("I don't think you are")
                                     }
                                 } else {
                                     sharedPrefs.edit().putString("PASSWORD", input.text).apply()

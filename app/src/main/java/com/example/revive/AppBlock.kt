@@ -79,7 +79,7 @@ fun AppList(appList: List<AppBlock>, context: Context){
 val getAppBlockOnClick:(AppBlock, Context) -> (() -> Unit) = { app, context ->
     {
         if(app.packageName == "com.example.revive"){
-            context.startActivity(Intent(context, CustomizeActivity::class.java))
+            context.startActivity(Intent(context, FirstLaunchActivity::class.java))
         } else {
             context.startActivity(context.packageManager.getLaunchIntentForPackage(app.packageName))
         }
