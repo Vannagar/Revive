@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.revive"
+    namespace = "com.vannagar.revive"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.revive"
+        applicationId = "com.vannagar.revive"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
